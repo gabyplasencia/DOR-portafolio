@@ -1,3 +1,13 @@
-body {
-    background-color: black;
-}
+@use 'globals';
+
+@use 'nav';
+
+@use 'hero';
+
+@use 'project-layout';
+
+@use 'projectCard';
+
+@use 'contactame';
+
+@use 'footer';
