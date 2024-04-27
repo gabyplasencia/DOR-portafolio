@@ -1,0 +1,16 @@
+<svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="splidejs">
+<path id="Rectangle 6" d="M28.3417 56.5684L1.19209e-05 28.3416L28.2268 -6.77109e-05L37.4378 9.17363L28.2641 18.3847L18.3848 28.3043L37.5154 47.3573L28.3417 56.5684Z" fill="url(#paint0_linear_55_383)"/>
+<path id="Rectangle 7" d="M28.2268 0L56.5685 28.2268L28.3417 56.5684L19.1307 47.3947L28.3044 38.1837L38.1837 28.2641L19.0531 9.21104L28.2268 0Z" fill="url(#paint1_linear_55_383)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_55_383" x1="0.000119231" y1="27.9999" x2="30.0001" y2="27.9999" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BBE808"/>
+<stop offset="1" stop-color="#05C4EC"/>
+</linearGradient>
+<linearGradient id="paint1_linear_55_383" x1="20.0002" y1="28" x2="56.0002" y2="28" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BBE808"/>
+<stop offset="1" stop-color="#05C4EC"/>
+</linearGradient>
+</defs>
+</svg>

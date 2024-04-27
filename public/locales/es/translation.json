@@ -1,0 +1,51 @@
+{   
+    "ariaHomeLink": "Ir a la sección principal",
+    "inicio": "Inicio",
+    "ariaProyectosLink": "Ir a los proyectos",
+    "proyectos": "Proyectos",
+    "ariaFormularioLink": "Ir al formulario de contacto",
+    "contactame": "Contactame",
+
+    "saludo": "Hola! soy Gabriela",
+    "soy": "Desarrolladora Web",
+    "presentacion": "Actualmente estoy cursando un ciclo superior de Desarrollo de Aplicaciones Web (DAW) y tengo previsto realizar mis prácticas el próximo año. Durante mi formación, he creado varios proyectos que reflejan mis habilidades y conocimientos en desarrollo web. A continuación, puedes encontrar más detalles sobre estos proyectos.",
+    "ariaCV": "enlace para descargar mi cv en español y portugues",
+
+    "seccionProyectosTitulo": "Mis Proyectos",
+    "altImg": "foto representativa del proyecto",
+    "Logo": "logo de la página",
+    "lenguajes": "Lenguajes usados",
+    "codigo": "Código",
+
+    "titulo1": "Pixel For Kids",
+    "desc1": "Esta página ofrece una forma sencilla para que los niños dejen fluir su creatividad con herramientas muy sencillas para crear pixel art. También está disponible en dos idiomas, español e inglés, y es accesible para lectores de pantalla.",
+    
+    "titulo2": "Portafolio Animado",
+    "desc2": "Este portafolio fue diseñado con el propósito de ofrecer una experiencia dinámica y cautivadora mediante el uso de GSAP. Además, se han priorizado los principios de accesibilidad para garantizar que el contenido sea accesible para todos los usuarios. Asimismo, se ha seguido la metodología BEM para mantener un código CSS organizado y modular junto con SASS.",    
+    
+    "titulo3": "Calculadora de Edad",
+    "desc3": "Esta calculadora de edad es capaz de detectar si la fecha de nacimiento es futura, si fue un año bisiesto y si el día es válido según el mes.",    
+    
+    "titulo4": "Viajes al Espacio",
+    "desc4": "Este es un sitio web de varias páginas inspirado en un sitio ficticio de turismo espacial. Se construyó siguiendo los lineamientos proporcionados en el archivo Figma, el HTML se hizo desde cero y usando la metodología BEM, para algunas funcionalidades utilicé Javascript vanilla (para la navegación) y una biblioteca (para las diapositivas).",    
+    
+    "titulo5": "Maqueta de una Red Social",
+    "desc5": "El objetivo principal de este proyecto era practicar diseños. El único requisito funcional era alternar entre temas claros y oscuros.",
+
+    "hola": "Hola",
+    "enviado": "Se ha enviado satisfactoriamente el siguiente mensaje",
+    "contacto": "Nos pondremos en contacto contigo lo antes posible en el correo",
+    "nombre": "Nombre",
+    "placeholderNombre": "Tu nombre",
+    "mensaje": "Mensaje",
+    "placeholderMensaje": "Escribe un mensaje...",
+    "enviar": "Enviar",
+    "ariaGithub": "enlace a mis repositorios en github",
+    "ariaLinkedin": "enlace a mi linkedin",
+    "visitada": "La página ha sido visitada",
+    "veces": "veces.",
+    
+
+
+    "error": "Ups hubo un error..."
+}
