@@ -24,8 +24,21 @@ button,
 input,
 label,
 textarea,
+strong,
 a {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
+    color: inherit;
+}
+
+.container {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+@media(min-width: 768px) {
+    .container {
+        width: min(80vw, 1600px);
+    }
 }
