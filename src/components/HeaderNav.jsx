@@ -12,10 +12,10 @@ const HeaderNav = () => {
       i18n.changeLanguage(lang_code);
       };
     return (
-    <header className="headerNav">
-        <img src="/assets/icons/logo-gp.svg" alt={t("Logo")} aria-hidden="true" className="logo"/>
+    <header className="headerNav flex items-center w-vw md:justify-between md:px-9 md:py-5">
+        <img src="/assets/icons/logo-gp.svg" alt={t("Logo")} aria-hidden="true" className="logo invisible md:visible md:h-11"/>
         <nav role="navigation">
-            <ul className="nav">
+            <ul className="nav flex items-center md:gap-10 md:pb-5">
                 <li className="nav__item">
                 <a href="#hero" aria-label={t("ariaHomeLink")}>{t("inicio")}</a>
                 </li>

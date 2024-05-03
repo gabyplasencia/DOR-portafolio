@@ -48,7 +48,7 @@ const Projects = () => {
 
     return (
         <section id="proyectos" className="container projects">
-            <h2 className="section__title">{t("seccionProyectosTitulo")}</h2>
+            <h2 className="section__title">..\{t("seccionProyectosTitulo")}</h2>
 
             <div className="projects__wrapper">
             {cards}

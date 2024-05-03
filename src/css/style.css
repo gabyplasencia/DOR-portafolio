@@ -1,0 +1,67 @@
+:root {
+  --light-lila: #f5f5f5;
+  --lila: #EDDFFF;
+  --purple: #A142FF;
+  --dark-purple: #33115E;
+  --light-purple: #F4EBFF;
+  --roboto-flex: "Roboto Flex", sans-serif;
+  --roboto-mono: "Roboto Mono", monospace;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: var(--roboto-flex);
+  background-color: var(--light-lila);
+}
+
+button,
+input,
+label,
+textarea,
+a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.nav {
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--lila);
+}
+
+.nav__item {
+  transition: all 150ms ease;
+  padding: 0.2rem 0.9rem;
+  border-radius: 4px;
+}
+
+.nav__item:hover {
+  background-color: var(--lila);
+}
+
+.lan-select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: var(--light-lila);
+  border: 1px solid var(--purple);
+  border-radius: 5px;
+  padding: 0.3rem;
+  padding-left: 1.8rem;
+  padding-right: 1.1rem;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  box-shadow: 0 0 18px -3px rgba(118, 37, 232, 0.612);
+  transition: all 150ms ease;
+  cursor: pointer;
+}
+
+.lan-select:hover {
+  box-shadow: 0 0 30px 1px rgba(110, 27, 227, 0.705);
+}
