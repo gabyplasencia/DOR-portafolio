@@ -40,6 +40,7 @@ const Projects = () => {
                 figmaLogo={item.figmaLogo}
                 figmaAlt={item.figmaAlt}
                 figmaLink={item.figmaLink}
+                figma={item.figma}
                 iconGoToPage={item.iconGoToPage}
                 pageLink={item.pageLink}
             />
@@ -48,9 +49,9 @@ const Projects = () => {
 
     return (
         <section id="proyectos" className="container projects">
-            <h2 className="section__title">..\{t("seccionProyectosTitulo")}</h2>
+            <h2 className="projects__title text-3xl md:text-4xl font-semibold">..\{t("seccionProyectosTitulo")}</h2>
 
-            <div className="projects__wrapper">
+            <div className="projects__wrapper my-8 grid md:grid-cols-2 md:gap-12 md:my-12">
             {cards}
             </div>
         </section>

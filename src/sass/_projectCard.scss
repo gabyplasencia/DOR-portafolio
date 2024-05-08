@@ -1,0 +1,42 @@
+.project {
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(187, 80, 250);
+    border-radius: 25px;
+    box-shadow: 0 0 30px -10px rgba(130, 13, 177, 0.663);
+
+    &__title {
+        font-family: var(--roboto-mono);
+        color: var(--dark-purple);
+    }
+
+    &__desc {
+        letter-spacing: 0.05rem;
+        line-height: 1.6;
+    }
+
+    &__link-icon {
+        fill: var(--dark-purple);
+        height: 1.2rem;
+        aspect-ratio: 1;
+    }
+
+    &__link {
+        font-weight: 600;
+        letter-spacing: 0.05rem;
+    }
+
+}
+
+.tech {
+    &__icon {
+        margin-bottom: 0.3rem;
+        height: 2rem;
+    }
+
+    &__name {
+        margin-inline: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: rgb(141, 141, 141);
+    }
+}
