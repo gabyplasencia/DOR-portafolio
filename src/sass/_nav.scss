@@ -1,6 +1,7 @@
 .headerNav {
     backdrop-filter: blur(80px);
     background-color: #f5f5f5b0;
+    box-shadow: 5px 0 15px -3px rgba(187, 187, 187, 0.336);
     position: sticky;
     top: 0;
     left: 0;
@@ -45,7 +46,6 @@
     .headerNav {
         backdrop-filter: blur(130px);
         background-color: #f5f5f5f0;
-        box-shadow: 5px 0 15px -3px rgba(187, 187, 187, 0.336);
     }
 
     .main-navbar {
