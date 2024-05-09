@@ -1,0 +1,67 @@
+.contactame {
+    background-color: #ebcefd51;
+    border: 1px solid black;
+    margin-block: 2rem;
+    width: 95vw;
+    border: 4px solid rgb(211, 171, 250);
+    border-radius: 20px;
+    box-shadow: 0 0 25px -12px rgb(123, 8, 194);
+
+    &__title {
+        font-family: var(--roboto-mono);
+        text-transform: uppercase;
+        letter-spacing: 0.18rem;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 3px rgba(123, 8, 194, 0.495),
+                    0 0 10px rgb(130, 37, 216);
+    }
+
+    &__form {
+        label {
+            font-weight: 500;
+            letter-spacing: 0.05rem;
+            margin-bottom: 0.4rem;
+            color: rgb(53, 53, 53);
+            font-size: 1.1rem;
+        }
+
+        input, 
+        textarea {
+            margin-bottom: 1.1rem;
+            padding-block: 0.3rem;
+            padding-inline: 0.6rem;
+            letter-spacing: 0.04rem;
+            font-weight: 300;
+            border: 2px solid rgb(201, 201, 201);
+        }
+
+        textarea {
+            min-height: 8rem;
+        }
+    }
+
+    &__btn {
+        width: fit-content;
+        background-color: rgb(174, 116, 236);
+        font-weight: 500;
+        font-size: 1.1rem;
+        letter-spacing: 0.1rem;
+        color: rgb(255, 255, 255);
+        transition: all 150ms ease;
+    }
+
+    &__btn:hover {
+        background-color: rgb(121, 54, 194);
+    }
+
+    &__btn:active {
+        scale: 0.95;
+    }
+}
+
+@media(min-width: 769px) {
+    .contactame {
+        width: min(90vw, 600px);
+        margin-block: 6rem;
+    }
+}
