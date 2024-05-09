@@ -329,3 +329,23 @@ a {
     margin-block: 6rem;
   }
 }
+.footer {
+  background: linear-gradient(155deg, rgb(240, 222, 255), rgba(192, 161, 235, 0.855) 95%);
+  color: rgb(20, 20, 20);
+}
+.footer__link-icon {
+  height: 25px;
+  aspect-ratio: 1;
+  fill: var(--dark-purple);
+  transition: all 150ms ease;
+}
+.footer__link-icon:hover {
+  scale: 1.05;
+}
+.footer__myname {
+  font-family: var(--roboto-mono);
+  font-weight: 500;
+}
+.footer__visits {
+  letter-spacing: 0.05rem;
+}
