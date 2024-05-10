@@ -32,45 +32,53 @@ const Hero = () => {
 
             <div className="divisor justify-self-center"></div>
 
-            <div className="hero__right-wrapper tech justify-self-end text-center py-4 md:py-9">
-                <strong className="tech__title text-2xl tracking-wider">&#x3c;Stacks &#x2f;&#62;</strong>
+            <div className="hero__right-wrapper hero-tech justify-self-end text-center py-4 md:py-9">
+                <strong className="hero-tech__title text-2xl tracking-wider">&#x3c;Stacks &#x2f;&#62;</strong>
 
-                <div className="tech__container flex flex-wrap gap-8 items-center justify-center text-neutral-600 md:gap-12">
-                    <div className="tech__wrapper">
-                        <img src="/assets/icons/logo-html.svg" alt="logo html" aria-hidden="true" className="tech__icon" />
-                        <p className="tech__name">HTML</p>
+                <div className="hero-tech__container flex flex-wrap gap-10 items-center justify-center text-neutral-600">
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-html.svg" alt="logo html" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">HTML</p>
                     </div>
-                    <div className="tech__wrapper">
-                        <img src="/assets/icons/logo-css.svg" alt="logo css" aria-hidden="true" className="tech__icon" />
-                        <p className="tech__name">CSS</p>
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-css.svg" alt="logo css" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">CSS</p>
                     </div>
-                    <div className="tech__wrapper">
-                        <img src="/assets/icons/logo-js.svg" alt="logo javascript" aria-hidden="true" className="tech__icon" />
-                        <p className="tech__name">Javascript</p>
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-js.svg" alt="logo javascript" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">Javascript</p>
                     </div>
-                    <div className="tech__wrapper">
-                        <img src="/assets/icons/logo-sass.svg" alt="logo sass" aria-hidden="true" className="tech__icon" />
-                        <p className="tech__name">SASS</p>
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-sass.svg" alt="logo sass" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">SASS</p>
                     </div>
-                    <div className="tech__wrapper">
-                        <img src="/assets/icons/logo-react.svg" alt="logo react" aria-hidden="true" className="tech__icon" />
-                        <p className="tech__name">React</p>
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-react.svg" alt="logo react" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">React</p>
                     </div>
-                    <div className="tech__wrapper">
-                        <img src="/assets/icons/logo-mysql.svg" alt="logo mysql" aria-hidden="true" className="tech__icon" />
-                        <p className="tech__name">MySQL</p>
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-mysql.svg" alt="logo mysql" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">MySQL</p>
                     </div>
-                    <div className="tech__wrapper">
-                        <img src="/assets/icons/logo-gsap.svg" alt="logo gsap" aria-hidden="true" className="tech__icon" />
-                        <p className="tech__name">GSAP</p>
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-gsap.svg" alt="logo gsap" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">GSAP</p>
                     </div>
-                    <div className="tech__wrapper">
-                        <img src="/assets/icons/logo-git.svg" alt="logo git" aria-hidden="true" className="tech__icon" />
-                        <p className="tech__name">Git</p>
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-git.svg" alt="logo git" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">Git</p>
                     </div>
-                    <div className="tech__wrapper">
-                        <img src="/assets/icons/logo-figma.svg" alt="logo figma" aria-hidden="true" className="tech__icon" />
-                        <p className="tech__name">Figma</p>
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-figma.svg" alt="logo figma" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">Figma</p>
+                    </div>
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-bootstrap.svg" alt="logo bootstrap" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">Bootstrap</p>
+                    </div>
+                    <div className="hero-tech__wrapper">
+                        <img src="/assets/icons/logo-tailwind.svg" alt="logo tailwind" aria-hidden="true" className="hero-tech__icon" />
+                        <p className="hero-tech__name">Tailwind</p>
                     </div>
                 </div>
             </div>

@@ -179,23 +179,25 @@ a {
   background-color: rgba(95, 27, 190, 0.151);
 }
 
-.tech__title {
+.hero-tech__title {
   font-family: var(--roboto-mono);
 }
-.tech__container {
+.hero-tech__container {
   background-color: rgb(255, 255, 255);
-  padding: 1.5rem;
+  padding: 1.3rem;
   margin-top: 1rem;
   border-radius: 15px;
   box-shadow: 0 0 35px -15px rgba(110, 27, 227, 0.705);
 }
-.tech__wrapper {
+.hero-tech__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0.4rem;
+  font-size: 1.1rem;
 }
-.tech__icon {
-  height: 45px;
+.hero-tech__icon {
+  height: 40px;
 }
 
 .divisor {
@@ -210,11 +212,11 @@ a {
     grid-template-columns: 0.45fr 0.3fr 0.8fr;
     margin-block: 3.5rem;
   }
-  .tech__container {
+  .hero-tech__container {
     margin-top: 2.2rem;
-    padding: 2.5rem;
+    padding: 2.2rem;
   }
-  .tech__icon {
+  .hero-tech__icon {
     height: 50px;
   }
 }
@@ -249,17 +251,6 @@ a {
   letter-spacing: 0.05rem;
   color: var(--dark-purple);
 }
-.project__link-line {
-  height: 3px;
-  width: 100%;
-  background-image: linear-gradient(90deg, var(--dark-purple) 50%, rgba(0, 0, 0, 0) 50%);
-  background-size: 200%;
-  background-position: 50%;
-  transition: background-position 300ms;
-}
-.project__link:hover > .project__link-line {
-  background-position: 0%;
-}
 
 .tech__icon {
   margin-bottom: 0.3rem;
@@ -269,6 +260,23 @@ a {
   margin-inline: 1.2rem;
   margin-bottom: 0.5rem;
   color: rgb(141, 141, 141);
+}
+.tech__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.underline {
+  height: 3px;
+  width: 100%;
+  background-image: linear-gradient(130deg, var(--dark-purple), var(--purple) 30%, rgba(0, 0, 0, 0));
+  background-size: 200%;
+  background-position: right 15%;
+  transition: background-position 300ms;
+}
+
+.wrapper_underline:hover > .underline {
+  background-position: left;
 }
 
 .contactame {
