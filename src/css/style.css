@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --light-lila: #f5f5f5;
   --lila: #EDDFFF;
